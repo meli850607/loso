@@ -188,7 +188,7 @@ p {
   left: 0;
 }
 
-.choose-us-item  {
+.choose-us-item {
   font-size: 55px;
   color: #129CF3;
   transition: all 1s;
@@ -196,18 +196,22 @@ p {
   -o-transition: all 1s;
   -moz-transition: all 1s;
 }
-.choose-us-item h3{
+
+.choose-us-item h3 {
   color: #343434;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 800;
 }
-.choose-us-item p{
+
+.choose-us-item p {
   color: #727272;
   font-size: 15px;
 }
+
 /*--------testimonial-------*/
-.testimonial{
+
+.testimonial {
   background-image: url(../../ressources/img/testimonial-bg.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -217,40 +221,120 @@ p {
   -webkit-background-size: cover;
   background-position: 50% 50%;
 }
-.testimonial-overlay{
-  background-color: rgba(31,31,31,0.75);
+
+.testimonial-overlay {
+  background-color: rgba(31, 31, 31, 0.75);
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.carousel-indicators{
+
+.carousel-indicators {
   bottom: -8px;
 }
-.carousel-inner .item img{
+
+.carousel-inner .item img {
   border: 2px solid #129CF3;
   border-radius: 50%;
   padding: 3px;
 }
-.testimonial-caption{
+
+.testimonial-caption {
   padding-bottom: 70px;
 }
-.testimonial-caption h2{
+
+.testimonial-caption h2 {
   color: #129CF3;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 30px;
   margin-top: 25px;
 }
-.testimonial-caption h4{
+
+.testimonial-caption h4 {
   color: #129CF3;
 }
-.testimonial-caption h4 span{
+
+.testimonial-caption h4 span {
   color: #D8D8D8;
   font-style: italic;
   font-weight: 300;
 }
-.testimonial-caption p{
+
+.testimonial-caption p {
   color: #D8D8D8;
   font-size: 18px;
   line-height: 27px;
   padding-top: 50px;
+}
+
+/*---------Features---------*/
+
+.features-inner-wrapper {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.left-feature-item {
+  position: relative;
+  padding-right: 90px;
+  margin-bottom: 65px;
+  text-align: right;
+  margin-top: 35px;
+}
+
+.left-feature-item-icon {
+  position: absolute;
+  right: 0;
+  top: -8px;
+  font-size: 40px;
+  color: #129CF3;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+.left-feature-item h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+}
+.left-feature-item p{
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.feature-iphone img{
+  width:100%;
+}
+.right-feature-item{
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 65px;
+  margin-top: 35px;
+  text-align:left;
+}
+.right-feature-item-icon{
+  position: absolute;
+  left: 0;
+  top: -8px;
+  font-size: 40px;
+  color: #129CF3;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+.right-feature-item h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+}
+.right-feature-item p{
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }
