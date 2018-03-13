@@ -12,12 +12,15 @@ body {
 p {
   font-size: 14px;
 }
+
 /*-------Generic css-----*/
-.section-title{
+
+.section-title {
   padding-top: 90px;
   padding-bottom: 50px;
 }
-.section-title h2{
+
+.section-title h2 {
   position: relative;
   text-align: center;
   color: #333;
@@ -25,7 +28,8 @@ p {
   font-weight: 400;
   text-transform: uppercase;
 }
-.section-title h2::after{
+
+.section-title h2::after {
   content: "";
   position: absolute;
   bottom: -20px;
@@ -36,7 +40,7 @@ p {
   margin-left: -30px;
 }
 
-.section-title p{
+.section-title p {
   color: #333;
   font-size: 18px;
   line-height: 28px;
@@ -44,6 +48,7 @@ p {
   text-align: center;
   margin-top: 45px;
 }
+
 /*-----------Header---------*/
 
 .header {
@@ -132,20 +137,22 @@ p {
 .header-iphone img {
   width: 100%;
 }
+
 /*---------about us--------*/
 
-.choose-us-wraper{
+.choose-us-wraper {
   padding-top: 50px;
 }
 
-.about-iphone img{
+.about-iphone img {
   margin-top: 8px;
 }
-.choose-us-title{
+
+.choose-us-title {
   padding-bottom: 50px;
 }
 
-.choose-us-title h2{
+.choose-us-title h2 {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 30px;
@@ -153,7 +160,7 @@ p {
   position: relative;
 }
 
-.choose-us-title h2::after{
+.choose-us-title h2::after {
   content: "";
   position: absolute;
   bottom: -12px;
@@ -162,13 +169,88 @@ p {
   height: 1px;
   background-color: #129CF3;
 }
-.choose-us-title p{
+
+.choose-us-title p {
   margin-top: 40px;
   font-size: 19px;
   line-height: 24px;
 }
-.choose-us-item{
+
+.choose-us-item {
   position: relative;
   padding-bottom: 4px;
   padding-left: 80px;
+}
+
+.choose-us-item div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.choose-us-item  {
+  font-size: 55px;
+  color: #129CF3;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+.choose-us-item h3{
+  color: #343434;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+.choose-us-item p{
+  color: #727272;
+  font-size: 15px;
+}
+/*--------testimonial-------*/
+.testimonial{
+  background-image: url(../../ressources/img/testimonial-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+.testimonial-overlay{
+  background-color: rgba(31,31,31,0.75);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.carousel-indicators{
+  bottom: -8px;
+}
+.carousel-inner .item img{
+  border: 2px solid #129CF3;
+  border-radius: 50%;
+  padding: 3px;
+}
+.testimonial-caption{
+  padding-bottom: 70px;
+}
+.testimonial-caption h2{
+  color: #129CF3;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 25px;
+}
+.testimonial-caption h4{
+  color: #129CF3;
+}
+.testimonial-caption h4 span{
+  color: #D8D8D8;
+  font-style: italic;
+  font-weight: 300;
+}
+.testimonial-caption p{
+  color: #D8D8D8;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 50px;
 }
