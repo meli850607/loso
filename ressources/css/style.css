@@ -10,3 +10,11 @@ body{
 p{
   font-size: 14px;
 }
+/*-----------Header---------*/
+.header{
+  background-image: url(ressources/img/header-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
