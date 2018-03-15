@@ -80,21 +80,21 @@ $(document).ready(function() {
   });
 });
 //add auto padding to Header
-  $(document).ready(function(){
+$(document).ready(function() {
+  'use strict';
+  setInterval(function() {
     'use strict';
-    setInterval(function(){
-      'use strict';
-      var windowHeight = $(window).height();
-      var containerHeight = $(".header-container").height();
-      var padTop = windowHeight - containerHeight;
-      $(".header-container").css({
-        'padding-top': Math.round(padTop / 2) + 'px',
-        'padding-bottom': Math.round(padTop / 2) + 'px'
-      });
-    }, 10)
-  });
+    var windowHeight = $(window).height();
+    var containerHeight = $(".header-container").height();
+    var padTop = windowHeight - containerHeight;
+    $(".header-container").css({
+      'padding-top': Math.round(padTop / 2) + 'px',
+      'padding-bottom': Math.round(padTop / 2) + 'px'
+    });
+  }, 10)
+});
 //add bx slider to SCREENS
-$(document).ready(function(){
+$(document).ready(function() {
   $('.bxslider').bxSlider({
     slideWidth: 292.5,
     auto: true,
@@ -102,4 +102,20 @@ $(document).ready(function(){
     maxSlides: 3,
     slideMargin: 50
   })
+});
+
+// add counters
+$(document).ready(function() {
+  $('.counter-num').counterUp({
+    delay: 10,
+    time: 2000
+  });
+});
+//add animation/initialize wow
+$(document).ready(function() {
+  'use strict';
+  new WOW().init();
+
+
+
 });
