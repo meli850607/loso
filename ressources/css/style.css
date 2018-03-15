@@ -50,7 +50,8 @@ p {
 }
 
 /*----------Navigation---------*/
-.navbar-default{
+
+.navbar-default {
   background-color: transparent;
   border-color: #444;
   z-index: 110;
@@ -59,7 +60,8 @@ p {
   -o-transition: all 1s;
   -webkit-transition: all 1s;
 }
-.navbar-default .navbar-nav > li > a{
+
+.navbar-default .navbar-nav>li>a {
   color: #B5B5B5;
   font-family: "raleway", sans-serif;
   transition: all 1s;
@@ -68,27 +70,30 @@ p {
   -webkit-transition: all 1s;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
-color: #129CF3;
+.navbar-default .navbar-nav>li>a:hover {
+  color: #129CF3;
 }
-.navbar-default .navbar-nav > li > a:focus{
-color: #B5B5B5;
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: #B5B5B5;
 }
-.navbar-brand{
+
+.navbar-brand {
   padding: 9px 15px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s;
 }
-.navbar-default .navbar-nav > .active>a,
-.navbar-default .navbar-nav > .active>a:hover,
-.navbar-default .navbar-nav > .active>a:focus{
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: transparent;
   color: #129CF3;
 }
+
 /*-----------Header---------*/
 
 .header {
